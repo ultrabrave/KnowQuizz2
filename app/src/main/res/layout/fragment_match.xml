@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".views.tabs.MatchFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tu edad" />
+
+    <SeekBar
+        android:id="@+id/userSb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:max="120"/>
+
+    <TextView
+        android:id="@+id/userTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Edad de tu amor" />
+
+    <SeekBar
+        android:id="@+id/loverSb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:max="120"/>
+
+    <TextView
+        android:id="@+id/loverTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"/>
+
+    <Button
+        android:id="@+id/btnEnviarFragmentMatch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ENVIAR"/>
+
+</LinearLayout>
